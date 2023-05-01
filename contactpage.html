@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+     <style>
+        * {
+            box-sizing: border-box;
+            
+        }
+        .front{
+            background-color:#4dafd8;
+            border: 12px;
+            padding: 8px;
+            margin: 2px;
+        }
+        form{
+            background-color: whitesmoke;
+            position: relative;
+            border: 3px solid lightgray;
+            padding: 20px;
+            border-color: black;
+            border-radius: 10px;
+            position: ;
+        }
+        input[type="submit"]{
+            background-color: #deab78;
+        }
+        input[type="submit"]:hover{
+            background-color:  rgba(160,55,55,0.856);
+        }
+
+ 
+
+        
+     </style>
+</head>
+<body>
+   <div class="container"> 
+     <div class="logo">
+        <a href="index.html">
+            <img class="main-logo" src="images/result.png" width="200px">
+        </a>
+     </div>
+      <h1 class="front">Contact Us</h1> 
+    </div>
+    <form>
+    <p> First Name: <input type="text" name="fname" >
+     Last Name: <input type="text" name="lname" ></p>
+    <p>Email: <input type="email" name="email" placeholder="....@gmail.com"></p>
+    <p>phone number: <input type="number" name="number" placeholder="123456789"></p>
+    <p>define your problem: <input type="text" name="message" cols="30" rows="5"></p>
+    <p>additional details: <input type="text" name="additional" aria-rowspan="5"></p>
+    
+    <input  type="submit" value="send message">
+</form>
+
+
+</body>
+</html>
